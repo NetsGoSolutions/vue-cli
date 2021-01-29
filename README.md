@@ -21,12 +21,12 @@ docker pull netsgosolutions/vue-cli
 Open docker UI, navigate to `Images` tab and click `RUN` on `netsgosolutions/vue-cli` image<br />
 Open `Optional Settings` 
 
-<b>Defining container name</b><br />
+##### Defining container name
 | Variable | Example | Description |
 |-|:-:|-|
 | Container Name | netsgo.no | Friendly container name |
 
-<b>Defining ports</b><br />
+##### Defining ports
 Click the `+` button to add more
 | Port | Description |
 |-|:-|
@@ -35,14 +35,13 @@ Click the `+` button to add more
 
 You can add more project ports if you have multiple Vue projects
 
-<b>Defining volumes</b><br />
-
+##### Defining volumes
 Example for volume path
 | Host Path | Container Path | Description |
 |-|-|-|
 | C:\Users\YOUR_USER\Documents\GitHub\netsgo.no | /code | Volume for accessing project files |
 
-<b>Starting container</b><br />
+##### Starting container
 Once all of configuration is done, press `Run`. The container should now start
 
 #### Installing node modules
