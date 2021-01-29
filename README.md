@@ -32,6 +32,7 @@ Click the `+` button to add more
 |-|:-|
 | 8000 | Default Vue UI port |
 | 8080 | Default Vue project port |
+
 You can add more project ports if you have multiple Vue projects
 
 <b>Defining volumes</b><br />
