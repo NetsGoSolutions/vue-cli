@@ -1,14 +1,10 @@
 # Vue CLI in docker
 This image provides Vue CLI UI inside a docker container
 
-
-
 ## Dev environment in Windows 10
-
 
 #### Installing docker
 [Download docker for windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows )
-
 
 #### Pulling docker image
 Open `Windows PowerShell` and pull the image
@@ -23,13 +19,13 @@ Open `Optional Settings`
 
 ##### Defining container name
 | Variable | Example | Description |
-|-|:-:|-|
+|-|-|-|
 | Container Name | netsgo.no | Friendly container name |
 
 ##### Defining ports
 Click the `+` button to add more
 | Port | Description |
-|-|:-|
+|-|-|
 | 8000 | Default Vue UI port |
 | 8080 | Default Vue project port |
 
